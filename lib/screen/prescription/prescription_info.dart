@@ -57,7 +57,7 @@ class _QuilToHtmlScreenState extends State<QuilToHtmlScreen> {
   String _applyLineHeight(String htmlContent) {
     return '''
   <style>
-    * { line-height: 1.0; margin: 0; padding: 0; }
+    * { line-height: 1.1; margin: 0; padding: 0; }
   </style>
   $htmlContent
   ''';
